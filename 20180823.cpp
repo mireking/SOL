@@ -29,17 +29,60 @@
 
 출력 예시
 1
+
+1. 파라미터
+. pos : 몇번째 소인지...
+. sum : 소들의 키에 대한 합
+
+2. 리턴 : void(ok), int(x)
+. 코스트 계산은 void로 함
+
+3. 종료조건
+. pos == N
+1) 도시 1로 갈수 없으면 return 0
+2) cost + 도시 1로 가는 비용 < sol
+-> sol update
+3) return
+
+4. 가지치기
+1)  
 */
 #pragma warning (disable : 4996)
 #include <stdio.h>
 
+int T, N, B;
+int H_i[20];
+int sol = 0x7fffffff;
+
+void DFS(int pos, int sum)
+{
+	int i;
+
+	//1. 종료조건
+	if (pos == N) return;
+
+	//
+	DFS(pos + 1, sum + H_i[pos]);
+}
+
 int main(void)
 {
-
+	int tc, i;
 	// 여기서부터 작성
+	scanf("%d", &T);
+	for (tc = 1; tc < T; tc++) {
+		//주의 : 변수의 초기화 필요
+		scanf("%d %d", &N, &B);
 
+		for (i = 1; i <= N; i++) {
 
+			scanf("%d", &H_i[i]);
+		}
+	}
+	
 
+	DFS(1, 0);
+	printf("%d", sol);
 	return 0;
 
 }
