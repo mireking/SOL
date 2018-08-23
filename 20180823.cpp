@@ -59,10 +59,20 @@ void DFS(int pos, int sum)
 	int i;
 
 	//1. 종료조건
-	if (pos == N) return;
+	if (pos == N +1){
+		sol = B - sum;
+		return;;
+	} 
 
 	//
-	DFS(pos + 1, sum + H_i[pos]);
+	for(i = 1; i<=N; i++){
+		if (sum + H_i[i] <= B) {
+		DFS(pos + 1, sum + H_i[i]);
+	}
+	}
+	
+	
+	
 }
 
 int main(void)
@@ -70,7 +80,7 @@ int main(void)
 	int tc, i;
 	// 여기서부터 작성
 	scanf("%d", &T);
-	for (tc = 1; tc < T; tc++) {
+	for (tc = 1; tc <= T; tc++) {
 		//주의 : 변수의 초기화 필요
 		scanf("%d %d", &N, &B);
 
@@ -111,7 +121,8 @@ int main(void)
 5
 0 14 4 10 20
 14 0 7 8 7
-4 5 0 7 16
+4 5 0 
+7 16
 11 7 9 0 2
 18 7 17 4 0
 
