@@ -44,7 +44,7 @@ Y N
  . pos == N+1 return 0;
 
 4. 가지치기 
- . 
+ . |left - right| > 남은 추의 합
 */
 #pragma warning (disable : 4996)
 
@@ -52,11 +52,20 @@ Y N
 
 int N; //추의 개수
 int a[12 + 10]; //추의 무게
+int r[12 + 10]; //남은추의 무게
 int M; //구슬의 개수
 int b[7 + 10];//구슬의 무게
 
 
+int abs(int x) {
+	if (x < 0)  return -x;
+	return x;
+}
+
 int DFS(int pos, int left, int right) {
+	//가지치기
+	if (abs(left - right) > r[pos]) return 0;
+
 	//종료조건
 	if (left == right) return 1;
 	if (pos == N + 1) return 0;
@@ -81,6 +90,12 @@ int main(void)
 	for (i = 1; i <= N; i++) {
 		scanf("%d ", &a[i]); //추의 무게 입력
 	}
+	r[N] = a[N];
+
+	for (i = N-1; i >= 1; i--) {
+		r[i] = a[i] + r[i + 1];
+	}
+
 
 	scanf("%d", &M); //구슬의 개수
 	for (i = 1; i <= M; i++) {
@@ -89,8 +104,6 @@ int main(void)
 		if (DFS(1, b[i], 0) == 1) printf("Y ");
 		else printf("N ");
 	}
-
-	
 
 	return 0;
 }
