@@ -29,17 +29,68 @@
 
 출력 예시
 Y N
+
+1. 파라미터
+ . pos : 사용할 추의 번호
+ . left : 왼쪽 무게
+ . right : 오른쪽 무게
+
+2. 리턴 : int
+ . 0 : 실패
+ . 1 : 성공(찾았음)
+
+3. 종료조건
+ . left == right return 1;
+ . pos == N+1 return 0;
+
+4. 가지치기 
+ . 
 */
 #pragma warning (disable : 4996)
 
 #include <stdio.h>
 
+int N; //추의 개수
+int a[12 + 10]; //추의 무게
+int M; //구슬의 개수
+int b[7 + 10];//구슬의 무게
+
+
+int DFS(int pos, int left, int right) {
+	//종료조건
+	if (left == right) return 1;
+	if (pos == N + 1) return 0;
+
+	//재귀호출1 : 왼쪽
+	if (DFS(pos + 1, left + a[pos], right) == 1) return 1;
+	//재귀호출2 : 오른쪽
+	if (DFS(pos + 1, left, right + a[pos]) == 1) return 1;
+	//재귀호출3 : X
+	if (DFS(pos + 1, left, right) == 1) return 1;			
+		
+		
+	return 0;
+}
+
 int main(void)
 {
 
 	// 여기서부터 작성
+	int i;
+	scanf("%d", &N); //추의 개수
+	for (i = 1; i <= N; i++) {
+		scanf("%d ", &a[i]); //추의 무게 입력
+	}
 
+	scanf("%d", &M); //구슬의 개수
+	for (i = 1; i <= M; i++) {
+		scanf("%d", &b[i]); //구슬의 무게 입력
 
+		if (DFS(1, b[i], 0) == 1) printf("Y ");
+		else printf("N ");
+	}
+
+	
 
 	return 0;
 }
