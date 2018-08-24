@@ -1,18 +1,18 @@
 #if 1 
-//¹ÙÀÌ·¯½º
+//ë°”ì´ëŸ¬ìŠ¤
 /*
-½ÅÁ¾ ¹ÙÀÌ·¯½ºÀÎ ¿ú ¹ÙÀÌ·¯½º´Â ³×Æ®¿öÅ©¸¦ ÅëÇØ ÀüÆÄµÈ´Ù. ÇÑ ÄÄÇ»ÅÍ°¡ ¿ú ¹ÙÀÌ·¯½º¿¡ °É¸®¸é ±× ÄÄÇ»ÅÍ¿Í ³×Æ®¿öÅ© »ó¿¡¼­ ¿¬°áµÇ¾î ÀÖ´Â ¸ðµç ÄÄÇ»ÅÍ´Â ¿ú ¹ÙÀÌ·¯½º¿¡ °É¸®°Ô µÈ´Ù.
-¿¹¸¦ µé¾î 7´ëÀÇ ÄÄÇ»ÅÍ°¡ <±×¸² 1>°ú °°ÀÌ ³×Æ®¿öÅ© »ó¿¡¼­ ¿¬°áµÇ¾î ÀÖ´Ù°í ÇÏÀÚ.
-1¹ø ÄÄÇ»ÅÍ°¡ ¿ú ¹ÙÀÌ·¯½º¿¡ °É¸®¸é ¿ú ¹ÙÀÌ·¯½º´Â 2¹ø°ú 5¹ø ÄÄÇ»ÅÍ¸¦ °ÅÃÄ 3¹ø°ú 6¹ø ÄÄÇ»ÅÍ±îÁö ÀüÆÄµÇ¾î 2, 3, 5, 6 ³× ´ëÀÇ ÄÄÇ»ÅÍ´Â ¿ú ¹ÙÀÌ·¯½º¿¡ °É¸®°Ô µÈ´Ù.
-ÇÏÁö¸¸ 4¹ø°ú 7¹ø ÄÄÇ»ÅÍ´Â 1¹ø ÄÄÇ»ÅÍ¿Í ³×Æ®¿öÅ©»ó¿¡¼­ ¿¬°áµÇ¾î ÀÖÁö ¾Ê±â ¶§¹®¿¡ ¿µÇâÀ» ¹ÞÁö ¾Ê´Â´Ù.
-¾î´À ³¯ 1¹ø ÄÄÇ»ÅÍ°¡ ¿ú ¹ÙÀÌ·¯½º¿¡ °É·È´Ù.ÄÄÇ»ÅÍÀÇ ¼ö¿Í ³×Æ®¿öÅ© »ó¿¡¼­ ¼­·Î ¿¬°áµÇ¾î ÀÖ´Â Á¤º¸°¡ ÁÖ¾îÁú ¶§,
-1¹ø ÄÄÇ»ÅÍ¸¦ ÅëÇØ ¿ú ¹ÙÀÌ·¯½º¿¡ °É¸®°Ô µÇ´Â ÄÄÇ»ÅÍÀÇ ¼ö¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
-ÀÔ·Â
-Ã¹Â° ÁÙ¿¡´Â ÄÄÇ»ÅÍÀÇ ¼ö°¡ ÁÖ¾îÁø´Ù.ÄÄÇ»ÅÍÀÇ ¼ö´Â 100 ÀÌÇÏÀÌ°í °¢ ÄÄÇ»ÅÍ¿¡´Â 1¹øºÎÅÍ Â÷·Ê´ë·Î ¹øÈ£°¡ ¸Å°ÜÁø´Ù.µÑÂ° ÁÙ¿¡´Â ³×Æ®¿öÅ© »ó¿¡¼­ Á÷Á¢ ¿¬°áµÇ¾î ÀÖ´Â ÄÄÇ»ÅÍ ½ÖÀÇ ¼ö(100°³ ÀÌÇÏ)°¡ ÁÖ¾îÁø´Ù.ÀÌ¾î¼­ ±× ¼ö¸¸Å­ ÇÑ ÁÙ¿¡ ÇÑ ½Ö¾¿ ³×Æ®¿öÅ© »ó¿¡¼­ Á÷Á¢ ¿¬°áµÇ¾î ÀÖ´Â ÄÄÇ»ÅÍÀÇ ¹øÈ£ ½ÖÀÌ ÁÖ¾îÁø´Ù.
-Ãâ·Â
-1¹ø ÄÄÇ»ÅÍ°¡ ¿ú ¹ÙÀÌ·¯½º¿¡ °É·ÈÀ» ¶§ 1¹ø ÄÄÇ»ÅÍ¸¦ ÅëÇØ ¿ú ¹ÙÀÌ·¯½º¿¡ °É¸®°Ô µÇ´Â ÄÄÇ»ÅÍÀÇ ¼ö¸¦ Ã¹Â° ÁÙ¿¡ Ãâ·ÂÇÑ´Ù.
+ì‹ ì¢… ë°”ì´ëŸ¬ìŠ¤ì¸ ì›œ ë°”ì´ëŸ¬ìŠ¤ëŠ” ë„¤íŠ¸ì›Œí¬ë¥¼ í†µí•´ ì „íŒŒëœë‹¤. í•œ ì»´í“¨í„°ê°€ ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë¦¬ë©´ ê·¸ ì»´í“¨í„°ì™€ ë„¤íŠ¸ì›Œí¬ ìƒì—ì„œ ì—°ê²°ë˜ì–´ ìžˆëŠ” ëª¨ë“  ì»´í“¨í„°ëŠ” ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë¦¬ê²Œ ëœë‹¤.
+ì˜ˆë¥¼ ë“¤ì–´ 7ëŒ€ì˜ ì»´í“¨í„°ê°€ <ê·¸ë¦¼ 1>ê³¼ ê°™ì´ ë„¤íŠ¸ì›Œí¬ ìƒì—ì„œ ì—°ê²°ë˜ì–´ ìžˆë‹¤ê³  í•˜ìž.
+1ë²ˆ ì»´í“¨í„°ê°€ ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë¦¬ë©´ ì›œ ë°”ì´ëŸ¬ìŠ¤ëŠ” 2ë²ˆê³¼ 5ë²ˆ ì»´í“¨í„°ë¥¼ ê±°ì³ 3ë²ˆê³¼ 6ë²ˆ ì»´í“¨í„°ê¹Œì§€ ì „íŒŒë˜ì–´ 2, 3, 5, 6 ë„¤ ëŒ€ì˜ ì»´í“¨í„°ëŠ” ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë¦¬ê²Œ ëœë‹¤.
+í•˜ì§€ë§Œ 4ë²ˆê³¼ 7ë²ˆ ì»´í“¨í„°ëŠ” 1ë²ˆ ì»´í“¨í„°ì™€ ë„¤íŠ¸ì›Œí¬ìƒì—ì„œ ì—°ê²°ë˜ì–´ ìžˆì§€ ì•Šê¸° ë•Œë¬¸ì— ì˜í–¥ì„ ë°›ì§€ ì•ŠëŠ”ë‹¤.
+ì–´ëŠ ë‚  1ë²ˆ ì»´í“¨í„°ê°€ ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë ¸ë‹¤.ì»´í“¨í„°ì˜ ìˆ˜ì™€ ë„¤íŠ¸ì›Œí¬ ìƒì—ì„œ ì„œë¡œ ì—°ê²°ë˜ì–´ ìžˆëŠ” ì •ë³´ê°€ ì£¼ì–´ì§ˆ ë•Œ,
+1ë²ˆ ì»´í“¨í„°ë¥¼ í†µí•´ ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë¦¬ê²Œ ë˜ëŠ” ì»´í“¨í„°ì˜ ìˆ˜ë¥¼ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
+ìž…ë ¥
+ì²«ì§¸ ì¤„ì—ëŠ” ì»´í“¨í„°ì˜ ìˆ˜ê°€ ì£¼ì–´ì§„ë‹¤.ì»´í“¨í„°ì˜ ìˆ˜ëŠ” 100 ì´í•˜ì´ê³  ê° ì»´í“¨í„°ì—ëŠ” 1ë²ˆë¶€í„° ì°¨ë¡€ëŒ€ë¡œ ë²ˆí˜¸ê°€ ë§¤ê²¨ì§„ë‹¤.ë‘˜ì§¸ ì¤„ì—ëŠ” ë„¤íŠ¸ì›Œí¬ ìƒì—ì„œ ì§ì ‘ ì—°ê²°ë˜ì–´ ìžˆëŠ” ì»´í“¨í„° ìŒì˜ ìˆ˜(100ê°œ ì´í•˜)ê°€ ì£¼ì–´ì§„ë‹¤.ì´ì–´ì„œ ê·¸ ìˆ˜ë§Œí¼ í•œ ì¤„ì— í•œ ìŒì”© ë„¤íŠ¸ì›Œí¬ ìƒì—ì„œ ì§ì ‘ ì—°ê²°ë˜ì–´ ìžˆëŠ” ì»´í“¨í„°ì˜ ë²ˆí˜¸ ìŒì´ ì£¼ì–´ì§„ë‹¤.
+ì¶œë ¥
+1ë²ˆ ì»´í“¨í„°ê°€ ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë ¸ì„ ë•Œ 1ë²ˆ ì»´í“¨í„°ë¥¼ í†µí•´ ì›œ ë°”ì´ëŸ¬ìŠ¤ì— ê±¸ë¦¬ê²Œ ë˜ëŠ” ì»´í“¨í„°ì˜ ìˆ˜ë¥¼ ì²«ì§¸ ì¤„ì— ì¶œë ¥í•œë‹¤.
 
-ÀÔ·Â ¿¹½Ã
+ìž…ë ¥ ì˜ˆì‹œ
 7
 6
 1 2
@@ -23,7 +23,7 @@
 4 7
 
 
-Ãâ·Â ¿¹½Ã
+ì¶œë ¥ ì˜ˆì‹œ
 4
 */
 
@@ -51,43 +51,43 @@ int bfs()
 {
 	struct myQ in, out;
 	int k, cnt = 0;//ni, nj;
-	//1. ½ÃÀÛ À§Ä¡¸¦ Å¥¿¡ In	
+	//1. ì‹œìž‘ ìœ„ì¹˜ë¥¼ íì— In	
 	in.x = 1;
-	//in.y = 1; //»ç¿ë¾ÈÇÔ
-	//in.v = 0; //»ç¿ë¾ÈÇÔ
+	//in.y = 1; //ì‚¬ìš©ì•ˆí•¨
+	//in.v = 0; //ì‚¬ìš©ì•ˆí•¨
 
 	q[wr++] = in;	
 	visit[1] = 1;
 
-	//2. ¹æ¹® Ç¥½Ã(²À)
+	//2. ë°©ë¬¸ í‘œì‹œ(ê¼­)
 	//a[1][1] = 0;	
 
-	while (wr > rd) //Å¥¿¡ µ¥ÀÌÅÍ°¡ ÀÖÀ¸¸é
+	while (wr > rd) //íì— ë°ì´í„°ê°€ ìžˆìœ¼ë©´
 	{
-		//3. Å¥¿¡¼­ Out
+		//3. íì—ì„œ Out
 		out = q[rd++];
-		//4. ÀÌµ¿(»óÇÏÁÂ¿ì)
+		//4. ì´ë™(ìƒí•˜ì¢Œìš°)
 		for (k = 2; k <= Count; k++) {
 			
-			//¿¬°áµÇ¾î ÀÖÁö ¾ÊÀ¸¸é Continue
+			//ì—°ê²°ë˜ì–´ ìžˆì§€ ì•Šìœ¼ë©´ Continue
 			if (a[out.x][k] == 0) continue;
 
-			//ÀÌ¹Ì ¹æ¹®ÇßÀ¸¸é Continue
+			//ì´ë¯¸ ë°©ë¬¸í–ˆìœ¼ë©´ Continue
 			if (visit[k] == 1) continue;
 			
 			//ni = out.y + di[k];
 			//nj = out.x + dj[k];
 
-			//5. ¹üÀ§¸¦ ¹þ¾î³ª¸é Continue(¹Ýµå½Ã ¸Å¿ì Áß¿ä)
+			//5. ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ë©´ Continue(ë°˜ë“œì‹œ ë§¤ìš° ì¤‘ìš”)
 			//if (ni < 1 || ni > Count || nj < 1 || nj > Count) continue;
 
-			//6. ±æÀÌ ¾Æ´Ï¸é Continue
+			//6. ê¸¸ì´ ì•„ë‹ˆë©´ Continue
 			//if (a[ni][nj] == 0) continue;
 
-			//7.¸ñÀûÁöÀÌ¸é return 
+			//7.ëª©ì ì§€ì´ë©´ return 
 			//if (ni == Count && nj == Count) return out.v + 1;
 
-			//8. ¹æ¹®(== Å¥¿¡ inÇÑ´Ù)
+			//8. ë°©ë¬¸(== íì— iní•œë‹¤)
 			in.x = k;
 			//in.y = ni;
 			//in.v = out.v + 1;
@@ -99,7 +99,7 @@ int bfs()
 		}
 
 	}
-	//´äÀ» ¸®ÅÏ
+	//ë‹µì„ ë¦¬í„´
 	return cnt;
 	//return -1;
 
@@ -109,7 +109,7 @@ int main(void)
 
 {
 
-	// ¿©±â¼­ºÎÅÍ ÀÛ¼º
+	// ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 	int i;
 	scanf("%d", &Count);
 	scanf("%d", &Pair);
@@ -131,20 +131,20 @@ int main(void)
 #endif
 
 #if 0 
-//´ÜÁö ¹øÈ£ ºÙÀÌ±â 
+//ë‹¨ì§€ ë²ˆí˜¸ ë¶™ì´ê¸° 
 /*
-<±×¸² 1>°ú °°ÀÌ Á¤»ç°¢Çü ¸ð¾çÀÇ Áöµµ°¡ ÀÖ´Ù. 1Àº ÁýÀÌ ÀÖ´Â °÷À», 0Àº ÁýÀÌ ¾ø´Â °÷À» ³ªÅ¸³½´Ù.
-Ã¶¼ö´Â ÀÌ Áöµµ¸¦ °¡Áö°í ¿¬°áµÈ ÁýµéÀÇ ¸ðÀÓÀÎ ´ÜÁö¸¦ Á¤ÀÇÇÏ°í, ´ÜÁö¿¡ ¹øÈ£¸¦ ºÙÀÌ·Á ÇÑ´Ù. ¿©±â¼­ ¿¬°áµÇ¾ú´Ù´Â °ÍÀº ¾î¶² ÁýÀÌ ÁÂ¿ì,
-È¤Àº ¾Æ·¡À§·Î ´Ù¸¥ ÁýÀÌ ÀÖ´Â °æ¿ì¸¦ ¸»ÇÑ´Ù. ´ë°¢¼±»ó¿¡ ÁýÀÌ ÀÖ´Â °æ¿ì´Â ¿¬°áµÈ °ÍÀÌ ¾Æ´Ï´Ù. <±×¸² 2>´Â <±×¸² 1>À» ´ÜÁöº°·Î ¹øÈ£¸¦ ºÙÀÎ °ÍÀÌ´Ù.
-Áöµµ¸¦ ÀÔ·ÂÇÏ¿© ´ÜÁö¼ö¸¦ Ãâ·ÂÇÏ°í, °¢ ´ÜÁö¿¡ ¼ÓÇÏ´Â ÁýÀÇ ¼ö¸¦ ¿À¸§Â÷¼øÀ¸·Î Á¤·ÄÇÏ¿© Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
+<ê·¸ë¦¼ 1>ê³¼ ê°™ì´ ì •ì‚¬ê°í˜• ëª¨ì–‘ì˜ ì§€ë„ê°€ ìžˆë‹¤. 1ì€ ì§‘ì´ ìžˆëŠ” ê³³ì„, 0ì€ ì§‘ì´ ì—†ëŠ” ê³³ì„ ë‚˜íƒ€ë‚¸ë‹¤.
+ì² ìˆ˜ëŠ” ì´ ì§€ë„ë¥¼ ê°€ì§€ê³  ì—°ê²°ëœ ì§‘ë“¤ì˜ ëª¨ìž„ì¸ ë‹¨ì§€ë¥¼ ì •ì˜í•˜ê³ , ë‹¨ì§€ì— ë²ˆí˜¸ë¥¼ ë¶™ì´ë ¤ í•œë‹¤. ì—¬ê¸°ì„œ ì—°ê²°ë˜ì—ˆë‹¤ëŠ” ê²ƒì€ ì–´ë–¤ ì§‘ì´ ì¢Œìš°,
+í˜¹ì€ ì•„ëž˜ìœ„ë¡œ ë‹¤ë¥¸ ì§‘ì´ ìžˆëŠ” ê²½ìš°ë¥¼ ë§í•œë‹¤. ëŒ€ê°ì„ ìƒì— ì§‘ì´ ìžˆëŠ” ê²½ìš°ëŠ” ì—°ê²°ëœ ê²ƒì´ ì•„ë‹ˆë‹¤. <ê·¸ë¦¼ 2>ëŠ” <ê·¸ë¦¼ 1>ì„ ë‹¨ì§€ë³„ë¡œ ë²ˆí˜¸ë¥¼ ë¶™ì¸ ê²ƒì´ë‹¤.
+ì§€ë„ë¥¼ ìž…ë ¥í•˜ì—¬ ë‹¨ì§€ìˆ˜ë¥¼ ì¶œë ¥í•˜ê³ , ê° ë‹¨ì§€ì— ì†í•˜ëŠ” ì§‘ì˜ ìˆ˜ë¥¼ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬í•˜ì—¬ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
 
-ÀÔ·Â
-Ã¹ ¹øÂ° ÁÙ¿¡´Â ÁöµµÀÇ Å©±â N(Á¤»ç°¢ÇüÀÌ¹Ç·Î °¡·Î¿Í ¼¼·ÎÀÇ Å©±â´Â °°À¸¸ç 5¡ÂN¡Â25)ÀÌ ÀÔ·ÂµÇ°í, ±× ´ÙÀ½ NÁÙ¿¡´Â °¢°¢ N°³ÀÇ ÀÚ·á(0È¤Àº 1)°¡ ÀÔ·ÂµÈ´Ù.
+ìž…ë ¥
+ì²« ë²ˆì§¸ ì¤„ì—ëŠ” ì§€ë„ì˜ í¬ê¸° N(ì •ì‚¬ê°í˜•ì´ë¯€ë¡œ ê°€ë¡œì™€ ì„¸ë¡œì˜ í¬ê¸°ëŠ” ê°™ìœ¼ë©° 5â‰¤Nâ‰¤25)ì´ ìž…ë ¥ë˜ê³ , ê·¸ ë‹¤ìŒ Nì¤„ì—ëŠ” ê°ê° Nê°œì˜ ìžë£Œ(0í˜¹ì€ 1)ê°€ ìž…ë ¥ëœë‹¤.
 
-Ãâ·Â
-Ã¹ ¹øÂ° ÁÙ¿¡´Â ÃÑ ´ÜÁö¼ö¸¦ Ãâ·ÂÇÏ½Ã¿À. ±×¸®°í °¢ ´ÜÁö ³» ÁýÀÇ ¼ö¸¦ ¿À¸§Â÷¼øÀ¸·Î Á¤·ÄÇÏ¿© ÇÑ ÁÙ¿¡ ÇÏ³ª¾¿ Ãâ·ÂÇÏ½Ã¿À.
+ì¶œë ¥
+ì²« ë²ˆì§¸ ì¤„ì—ëŠ” ì´ ë‹¨ì§€ìˆ˜ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤. ê·¸ë¦¬ê³  ê° ë‹¨ì§€ ë‚´ ì§‘ì˜ ìˆ˜ë¥¼ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬í•˜ì—¬ í•œ ì¤„ì— í•˜ë‚˜ì”© ì¶œë ¥í•˜ì‹œì˜¤.
 
-ÀÔ·Â ¿¹½Ã
+ìž…ë ¥ ì˜ˆì‹œ
 7
 0110100
 0110101
@@ -155,7 +155,7 @@ int main(void)
 0111000
 
 
-Ãâ·Â ¿¹½Ã
+ì¶œë ¥ ì˜ˆì‹œ
 3
 7
 8
@@ -185,7 +185,7 @@ int bfs(int si, int sj)
 {
 	struct myQ in, out;
 	int k, ni, nj, count = 0;	
-	//1. ½ÃÀÛ À§Ä¡¸¦ Å¥¿¡ In	
+	//1. ì‹œìž‘ ìœ„ì¹˜ë¥¼ íì— In	
 	in.x = sj;
 	in.y = si;
 	in.v = 0;
@@ -193,41 +193,41 @@ int bfs(int si, int sj)
 	q[wr++] = in;
 	count++;
 
-	//2. ¹æ¹® Ç¥½Ã(²À)
+	//2. ë°©ë¬¸ í‘œì‹œ(ê¼­)
 	a[si][sj] = 0;
 
 
-	while (wr > rd) //Å¥¿¡ µ¥ÀÌÅÍ°¡ ÀÖÀ¸¸é
+	while (wr > rd) //íì— ë°ì´í„°ê°€ ìžˆìœ¼ë©´
 	{
-		//3. Å¥¿¡¼­ Out
+		//3. íì—ì„œ Out
 		out = q[rd++];		
-		//4. ÀÌµ¿(»óÇÏÁÂ¿ì)
+		//4. ì´ë™(ìƒí•˜ì¢Œìš°)
 		for (k = 0; k < 4; k++) {
 			ni = out.y + di[k];
 			nj = out.x + dj[k];
 
-			//5. ¹üÀ§¸¦ ¹þ¾î³ª¸é Continue(¹Ýµå½Ã ¸Å¿ì Áß¿ä)
+			//5. ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ë©´ Continue(ë°˜ë“œì‹œ ë§¤ìš° ì¤‘ìš”)
 			if (ni < 1 || ni > N || nj < 1 || nj > N) continue;
 
-			//6. ±æÀÌ ¾Æ´Ï¸é Continue
+			//6. ê¸¸ì´ ì•„ë‹ˆë©´ Continue
 			if (a[ni][nj] == 0) continue;
 
-			//7.¸ñÀûÁöÀÌ¸é return 
+			//7.ëª©ì ì§€ì´ë©´ return 
 			//if (ni == N && nj == N) return out.v + 1;
 
-			//8. ¹æ¹®(== Å¥¿¡ inÇÑ´Ù)
+			//8. ë°©ë¬¸(== íì— iní•œë‹¤)
 			in.x = nj;
 			in.y = ni;
 			in.v = out.v + 1;
 			q[wr++] = in;
 
-			//9. ¹æ¹® Ç¥½Ã
+			//9. ë°©ë¬¸ í‘œì‹œ
 			a[ni][nj] = 0;
 			count++;
 		}
 
 	}	
-	//´äÀ» ¸®ÅÏ
+	//ë‹µì„ ë¦¬í„´
 	return count;
 	
 }
@@ -236,7 +236,7 @@ int main(void)
 
 {
 
-	// ¿©±â¼­ºÎÅÍ ÀÛ¼º
+	// ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 	int i, j;
 	scanf("%d", &N);
 
@@ -281,7 +281,7 @@ int main(void)
 
 
 #if 0 
-//Åä¸¶Åä(°í}
+//í† ë§ˆí† (ê³ }
 #pragma warning (disable : 4996)
 
 #include <stdio.h>
@@ -307,7 +307,7 @@ int bfs(void)
 	struct myQ in, out;
 	int k, ni, nj;
 	int i, j;
-	//1. ½ÃÀÛ À§Ä¡¸¦ Å¥¿¡ In
+	//1. ì‹œìž‘ ìœ„ì¹˜ë¥¼ íì— In
 	for (i = 1; i <= Y; i++) {
 		for (j = 1; j <= X; j++) {
 			
@@ -318,8 +318,8 @@ int bfs(void)
 
 				q[wr++] = in;
 
-				//2. ¹æ¹® Ç¥½Ã
-				//a[i][j] = 1; //ºÒÇÊ¿ä
+				//2. ë°©ë¬¸ í‘œì‹œ
+				//a[i][j] = 1; //ë¶ˆí•„ìš”
 			} 
 			
 		}
@@ -327,41 +327,41 @@ int bfs(void)
 
 
 
-	while (wr > rd) //Å¥¿¡ µ¥ÀÌÅÍ°¡ ÀÖÀ¸¸é
+	while (wr > rd) //íì— ë°ì´í„°ê°€ ìžˆìœ¼ë©´
 	{
-		//3. Å¥¿¡¼­ Out
+		//3. íì—ì„œ Out
 		out = q[rd++];
 		day = out.v;
-		//4. ÀÌµ¿(»óÇÏÁÂ¿ì)
+		//4. ì´ë™(ìƒí•˜ì¢Œìš°)
 		for (k = 0; k < 4; k++) {
 			ni = out.y + di[k];
 			nj = out.x + dj[k];
 
-			//5. ¹üÀ§¸¦ ¹þ¾î³ª¸é Continue(¹Ýµå½Ã ¸Å¿ì Áß¿ä)
+			//5. ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ë©´ Continue(ë°˜ë“œì‹œ ë§¤ìš° ì¤‘ìš”)
 			if (ni < 1 || ni > Y || nj < 1 || nj > X) continue;
 
-			//6. º®ÀÌ¸é Continue
+			//6. ë²½ì´ë©´ Continue
 			if (a[ni][nj] != 0) continue;			
 
-			//7.¸ñÀûÁöÀÌ¸é return 
+			//7.ëª©ì ì§€ì´ë©´ return 
 			//if (ni == Y && nj == X) return out.v + 1;
 
-			//8. ¹æ¹®(== Å¥¿¡ inÇÑ´Ù)
+			//8. ë°©ë¬¸(== íì— iní•œë‹¤)
 			in.x = nj;
 			in.y = ni;
 			in.v = out.v + 1;
 			q[wr++] = in;
 
-			//9. ¹æ¹® Ç¥½Ã
+			//9. ë°©ë¬¸ í‘œì‹œ
 			a[ni][nj] = 1;
 		}
 
 	}
-	//¾ÈÀÍÀº Åä¸¶Åä¸¦ °Ë»ö
+	//ì•ˆìµì€ í† ë§ˆí† ë¥¼ ê²€ìƒ‰
 
-	//Åä¸¶µµ°¡ ¸ðµÎ ÀÍ¾îÀÖÀ¸¸é 0, ¸ðµÎ°¡ ÀÍÁö ¸øÇÏ´Â »óÈ²ÀÌ¸é -1	
+	//í† ë§ˆë„ê°€ ëª¨ë‘ ìµì–´ìžˆìœ¼ë©´ 0, ëª¨ë‘ê°€ ìµì§€ ëª»í•˜ëŠ” ìƒí™©ì´ë©´ -1	
 
-	// (1) ¾ÈÀÍÀº Åä¸¶Åä°¡ 1°³¶óµµ ÀÖÀ¸¸é -1 ¸®ÅÏ
+	// (1) ì•ˆìµì€ í† ë§ˆí† ê°€ 1ê°œë¼ë„ ìžˆìœ¼ë©´ -1 ë¦¬í„´
 	for (i = 1; i <= Y; i++) {
 		for (j = 1; j <= X; j++) {
 			if (a[i][j] == 0) {
@@ -370,7 +370,7 @@ int bfs(void)
 		}
 	}
 	
-	// (2) ¾ÈÀÍÀº Åä¸¶Åä°¡ ¾øÀ¸¸é ´äÀ» ¸®ÅÏ
+	// (2) ì•ˆìµì€ í† ë§ˆí† ê°€ ì—†ìœ¼ë©´ ë‹µì„ ë¦¬í„´
 	return day;
 }
 
@@ -378,7 +378,7 @@ int main(void)
 
 {
 
-	// ¿©±â¼­ºÎÅÍ ÀÛ¼º
+	// ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 	int i, j;
 	scanf("%d %d", &X, &Y);
 
@@ -401,7 +401,7 @@ int main(void)
 #endif
 
 #if 0
-//Àå±â
+//ìž¥ê¸°
 #pragma warning (disable : 4996)
 
 #include <stdio.h>
@@ -427,48 +427,48 @@ int bfs(void)
 	struct myQ in, out;
 	int k, ni, nj;
 
-	//1. ½ÃÀÛ À§Ä¡¸¦ Å¥¿¡ In
+	//1. ì‹œìž‘ ìœ„ì¹˜ë¥¼ íì— In
 	in.x = sx;
 	in.y = sy;
 	in.v = 0;
 
 	q[wr++] = in;
 
-	//2. ¹æ¹® Ç¥½Ã
+	//2. ë°©ë¬¸ í‘œì‹œ
 	a[sy][sx] = 1;
 
-	while (wr > rd) //Å¥¿¡ µ¥ÀÌÅÍ°¡ ÀÖÀ¸¸é
+	while (wr > rd) //íì— ë°ì´í„°ê°€ ìžˆìœ¼ë©´
 	{
-		//3. Å¥¿¡¼­ Out
+		//3. íì—ì„œ Out
 		out = q[rd++];
 
-		//4. ÀÌµ¿(»óÇÏÁÂ¿ì)
+		//4. ì´ë™(ìƒí•˜ì¢Œìš°)
 		for (k = 0; k < 8; k++) {
 			ni = out.y + di[k];
 			nj = out.x + dj[k];
 
-			//5. ¹üÀ§¸¦ ¹þ¾î³ª¸é Continue(¹Ýµå½Ã ¸Å¿ì Áß¿ä)
+			//5. ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ë©´ Continue(ë°˜ë“œì‹œ ë§¤ìš° ì¤‘ìš”)
 			if (ni < 1 || ni > Y || nj < 1 || nj > X) continue;
 
-			//6. º®ÀÌ¸é Continue
+			//6. ë²½ì´ë©´ Continue
 			if (a[ni][nj] == 1) continue;
 
-			//7.¸ñÀûÁöÀÌ¸é return 
+			//7.ëª©ì ì§€ì´ë©´ return 
 			if (ni == ey && nj == ex) return out.v + 1;
 
-			//8. ¹æ¹®(== Å¥¿¡ inÇÑ´Ù)
+			//8. ë°©ë¬¸(== íì— iní•œë‹¤)
 			in.x = nj;
 			in.y = ni;
 			in.v = out.v + 1;
 			q[wr++] = in;
 
-			//9. ¹æ¹® Ç¥½Ã
+			//9. ë°©ë¬¸ í‘œì‹œ
 			a[ni][nj] = 1;
 		}
 
 	}
 
-	//¿©±â¿¡ ÁøÀÔ ºÒ°¡´É
+	//ì—¬ê¸°ì— ì§„ìž… ë¶ˆê°€ëŠ¥
 
 	return 0;
 }
@@ -477,7 +477,7 @@ int main(void)
 
 {
 
-	// ¿©±â¼­ºÎÅÍ ÀÛ¼º
+	// ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 	int i, j;
 	scanf("%d %d", &X, &Y);
 
@@ -503,7 +503,7 @@ int main(void)
 #endif
 
 #if 0
-//¹Ì·Î Å»Ãâ ·Îº¿
+//ë¯¸ë¡œ íƒˆì¶œ ë¡œë´‡
 #pragma warning (disable : 4996)
 
 #include <stdio.h>
@@ -520,7 +520,7 @@ int X, Y;
 int sx, sy, ex, ey;
 int a[100+10][100+10]; 
 int sol;
-//»ó,ÇÏ,ÁÂ,¿ì
+//ìƒ,í•˜,ì¢Œ,ìš°
 int di[4] = { -1, 1, 0, 0 };
 int dj[4] = { 0, 0, -1, 1 };
 
@@ -529,48 +529,48 @@ int bfs(void)
 	struct myQ in, out;
 	int k, ni, nj;
 	            
-	//1. ½ÃÀÛ À§Ä¡¸¦ Å¥¿¡ In
+	//1. ì‹œìž‘ ìœ„ì¹˜ë¥¼ íì— In
 	in.x = sx;
 	in.y = sy;
 	in.v = 0;
 
 	q[wr++] = in;
 
-	//2. ¹æ¹® Ç¥½Ã
+	//2. ë°©ë¬¸ í‘œì‹œ
 	a[sy][sx] = 1;
 
-	while (wr > rd) //Å¥¿¡ µ¥ÀÌÅÍ°¡ ÀÖÀ¸¸é
+	while (wr > rd) //íì— ë°ì´í„°ê°€ ìžˆìœ¼ë©´
 	{
-		//3. Å¥¿¡¼­ Out
+		//3. íì—ì„œ Out
 		out = q[rd++];
 
-		//4. ÀÌµ¿(»óÇÏÁÂ¿ì)
+		//4. ì´ë™(ìƒí•˜ì¢Œìš°)
 		for (k = 0; k < 4; k++) {
 			ni = out.y + di[k];
 			nj = out.x + dj[k];
 
-			//5. ¹üÀ§¸¦ ¹þ¾î³ª¸é Continue(¹Ýµå½Ã ¸Å¿ì Áß¿ä)
+			//5. ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ë©´ Continue(ë°˜ë“œì‹œ ë§¤ìš° ì¤‘ìš”)
 			if (ni < 1 || ni > Y || nj < 1 || nj > X) continue;
 
-			//6. º®ÀÌ¸é Continue
+			//6. ë²½ì´ë©´ Continue
 			if (a[ni][nj] == 1) continue;
 
-			//7.¸ñÀûÁöÀÌ¸é return 
+			//7.ëª©ì ì§€ì´ë©´ return 
 			if (ni == ey && nj == ex) return out.v + 1;
 
-			//8. ¹æ¹®(== Å¥¿¡ inÇÑ´Ù)
+			//8. ë°©ë¬¸(== íì— iní•œë‹¤)
 			in.x = nj;
 			in.y = ni;
 			in.v = out.v + 1;
 			q[wr++] = in;
 
-			//9. ¹æ¹® Ç¥½Ã
+			//9. ë°©ë¬¸ í‘œì‹œ
 			a[ni][nj] = 1;
 		}
 
 	}
 
-	//¿©±â¿¡ ÁøÀÔ ºÒ°¡´É
+	//ì—¬ê¸°ì— ì§„ìž… ë¶ˆê°€ëŠ¥
 
 	return 0;
 }
@@ -579,7 +579,7 @@ int main(void)
 
 {
 
-	// ¿©±â¼­ºÎÅÍ ÀÛ¼º
+	// ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 	int i, j;
 	scanf("%d %d", &X, &Y);
 	
@@ -693,7 +693,7 @@ using namespace std;
 
 int a[5000 + 10];
 
-//¸®ÅÏÀÌ ¾ç¼öÀÌ¸é ±³Ã¼, 0ÀÌ³ª À½¼öÀÌ¸é ¾Æ¹«ÀÏ ¾øÀ½
+//ë¦¬í„´ì´ ì–‘ìˆ˜ì´ë©´ êµì²´, 0ì´ë‚˜ ìŒìˆ˜ì´ë©´ ì•„ë¬´ì¼ ì—†ìŒ
 int mysort(const void* first, const void* second)
 {
 	if (*(int*)first > *(int*)second)
@@ -709,14 +709,14 @@ int main(void)
 	int TC, tcase;
 	cin >> TC;
 	for (tcase = 0; tcase < TC; tcase++) {
-		//¿©±â¼­ºÎÅÍ ÀÛ¼º
+		//ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 		cin >> a[tcase];
 	}
 
 	qsort(a, TC, sizeof(a[0]), mysort);
 
 	for (tcase = 0; tcase < TC; tcase++) {
-		//¿©±â¼­ºÎÅÍ ÀÛ¼º
+		//ì—¬ê¸°ì„œë¶€í„° ìž‘ì„±
 		cout << a[tcase] << ' ';
 	}
 
@@ -736,12 +736,12 @@ y.push_back(sx);
 x.push_back(sy);
 l.push_back(1);
 
-//¸¶Áö¸· ÁÂÇ¥ X-1, Y-1¿¡ µµ´ÞÇÏÁö ¾ÊÀº µ¿¾È ¹Ýº¹
+//ë§ˆì§€ë§‰ ì¢Œí‘œ X-1, Y-1ì— ë„ë‹¬í•˜ì§€ ì•Šì€ ë™ì•ˆ ë°˜ë³µ
 while (!x.empty() && (x.front() != X - 1 || y.front() != Y - 1)) {
-//ÇöÀç ¹æ¹®ÇÏ´Â ³ëµå¸¦ 0À¸·Î ÇÏ¿© ´Ù½Ã ¹æ¹®ÇÏÁö ¾Êµµ·Ï ÇÑ´Ù.
+//í˜„ìž¬ ë°©ë¬¸í•˜ëŠ” ë…¸ë“œë¥¼ 0ìœ¼ë¡œ í•˜ì—¬ ë‹¤ì‹œ ë°©ë¬¸í•˜ì§€ ì•Šë„ë¡ í•œë‹¤.
 a[y.front()][x.front()] = 0;
 
-//»óÇÏÁÂ¿ì »ç¹æÀ¸·Î °¥¼ö ÀÖ´Â ÁÂÇ¥ »ðÀÔ
+//ìƒí•˜ì¢Œìš° ì‚¬ë°©ìœ¼ë¡œ ê°ˆìˆ˜ ìžˆëŠ” ì¢Œí‘œ ì‚½ìž…
 if (y.front() > 0 && a[y.front() - 1][x.front()] == 1)
 {
 x.push_back(x.front());
@@ -770,14 +770,14 @@ y.push_back(y.front());
 l.push_back(l.front() + 1);
 }
 
-//Å¥¿¡¼­ ÇöÀç »ç¿ëÇÑ ÁÂÇ¥ Á¦°Å
+//íì—ì„œ í˜„ìž¬ ì‚¬ìš©í•œ ì¢Œí‘œ ì œê±°
 x.pop_front();
 y.pop_front();
 l.pop_front();
 }
 
 
-//Å¥¿¡ ¾ÆÁ÷ ³²¾Æ ÀÖ´Â °æ¿ì
+//íì— ì•„ì§ ë‚¨ì•„ ìžˆëŠ” ê²½ìš°
 if (!x.empty()) sol = l.front();
 
 };
